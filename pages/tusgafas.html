@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="keywords" description="Venta de Gafas, Gafas de Sol para el Cuidado de tus Ojos">
+  <meta name="keywords" content="Gafas, Estilo, Moda, Gafas de Sol, Cuida tus Ojos, Optica">
+  <meta name="author" content="Optimax Brigadas S.A.S.">
+
+  <title>Optimax Brigadas, Venta de Gafas y Gafas de Sol</title>
+
+  <link rel="shortcut icon" href=".././assets/img/favicon.png">
+  <!-- Bootstrap's style -->
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href=".././assets/css/bootstrap.min.css">
+
+  <!-- style design -->
+
+  <link rel="stylesheet" href=".././assets/css/style.css">
+  <link rel="stylesheet" href=".././assets/css/style2.css">
+
+  <!-- External fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <!-- External icons -->
+  <!-- https://material.io/resources/icons/?style=baseline -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <!-- js Pages -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="../assets/js/clasegafas.js"></script>
+  <script defer src="../assets/js/script.js"></script>
+  <script defer src="../assets/js/variables.js"></script>
+
+  <script defer src="../assets/js/contenido.js"></script>
+  <script defer src="../assets/js/app.js"></script>
+
+</head>
+
+<body class="graybody">
+  <div class="container-fluid">
+    <nav class="navbar-dark bg-dark">
+      <div class="d-flex p-12 flex-fill">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../assets/img/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+        </a>
+        <div class="d-flex p-12 flex-fill text-white align-text-center align-items-center">
+          <h1 class="navbarfont"> OPTIMAX BRIGADAS OPTICA </h1>
+        </div>
+    </nav>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav nav-fill">
+          <a class="nav-link active" href="../index.html"> Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".././pages/quienessomos.html"> Optica </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href=".././pages/tusgafas.html"> Tus Gafas </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=".././pages/ingresa.html"> Ingresa </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <div class="container__shoppingglasses">
+        <div class="bannerglasses">
+          <h2>Gafas</h2>
+        </div>
+        <div class="shoppingcard" id="cargando">
+        </div>
+      </div>
+  
+      <div class="container__cards" id="contenido">
+    </div>
+
+    
+
+  </div>
+
+  <div class="container__shoppingcart">
+    <div class="bannercart">
+      <h2>Carrito de Compras</h2>
+    </div>
+  </div>
+  
+  <div class="container__cards">
+
+  <div id="shoop1"></div>
+  <div id="shoop2"></div>
+  <div id="shoop3"></div>
+
+  </div>
+  
+  <div class="container__shoppingcart">
+    <div class="bannercart">
+      <h2>Total Compras</h2>
+
+      <div class="bannercart" id="value">
+
+      </div>
+
+      <div class="description">
+        <input class="boton" type="button" value="Comprar" id="comprar">
+      </div>
+    </div>
+  </div>
+
+
+    
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Nustras Redes Sociales</span>
+      </div>
+      <!-- Left -->
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Optimax Brigadas S.A.S.
+            </h6>
+            <p>
+              Somos una empresa colombiana, innovadora y pionera en el cuidado de la salud visual.
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Nuestros Productos
+            </h6>
+            <p>
+              <a href=".././pages/tusgafas.html" class="text-reset">Gafas</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Terminos y Condiciones</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contactanos
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Colombia, Bogotá D.C. Cra 13 # 51-47</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@optimaxbrigadas.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 57 01 249 00 13</p>
+            <p><i class="fas fa-print me-3"></i> + 57 317 300 80 60</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      ® 2022 Copyright
+      <a class="text-reset fw-bold" href="">Optimax Brigadas S.A.S.</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(236, 231, 235) ;
+}
+
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    margin: 40px;
+    transition: all 200ms;
+    border: none;
+}
+
+.card:hover{
+    width: 300px;
+    transition: all 200ms;
+}
+
+.card .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 290px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 500ms;
+}
+
+.card:hover .img .img__back{
+    bottom: -40px;
+    transition: all 500ms;
+}
+
+.card .cover img:hover{
+    top:0px;
+    filter: none;
+    transition: all 800ms;
+}
+
+.card .img__back{
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url(../img/back.jpg);
+}
+
+
+.card .description{
+    height: 235px;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 500ms;
+}
+
+.card:hover .description{
+    margin: 2px;
+    padding: 40px;
+    transition: all 400ms;
+}
+.card .description h2{
+    margin: 10px;
+    margin-top: 10px;
+    transition: all 400ms;
+}
+
+.card .description p{
+    margin-top: 10px;
+    transition: all 400ms;
+}
+
+.boton {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: rgb(21, 201, 21);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 400ms;
+}
+
+.card .description .boton:hover{
+    background: rgb(29, 139, 29);
+}
+
+.bannerglasses{
+    background: rgb(29, 139, 29);
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.bannercart{
+    background: rgb(29, 139, 29);
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+[
+    {
+    "id": 1,
+    "idboton": "boton1",
+    "poster": "../assets/img/shop1.jpg",
+    "description": "description1",
+    "descripcion_gafas": "Tipo Rojo Estelar",
+    "stock": 20,
+    "precio": 198000
+    },
+
+    {
+    "id": 2,
+    "idboton": "boton2",
+    "poster": "../assets/img/shop2.jpg",
+    "description": "description2",
+    "descripcion_gafas": "Tipo Azul Radiante",
+    "stock": 10,
+    "precio": 224000
+    },
+
+    {
+        "id": 3,
+        "idboton": "boton3",
+        "poster": "../assets/img/shop3.png",
+        "description": "description3",
+        "descripcion_gafas": "Tipo Negro Playa",
+        "stock": 5,
+        "precio": 298500
+    }
+]

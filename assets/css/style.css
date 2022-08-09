@@ -1,0 +1,102 @@
+/* General page parameters */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbarfont {
+  font-family: "Anton", sans-serif;
+}
+
+.navbarfont2 {
+  font-family: "Anton", sans-serif;
+  font-size: 100px;
+}
+
+.navbarfont3 {
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+}
+
+.graybody {
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+.transition {
+  transition: width 0.5s, height 0.5s, margin 0.5s;
+  margin: 40px auto 0;
+}
+
+.transition:hover {
+  width: 100%;
+  margin: 0% auto;
+}
+
+.copyright {
+  padding: 2%;
+  margin-bottom: 0%;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+.lents {
+  width: 500px;
+  height: auto;
+  border-color: black;
+  border-style: solid;
+}
+
+.btn--sell1 {
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+.btn--sell2 {
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+.btn--sell3 {
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+@media screen and (max-width: 1100px) {
+  .lents {
+    width: 333.33333px;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .navbarfont2 {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+  }
+
+  .navbarfont3 {
+    font-family: "Anton", sans-serif;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lents {
+    width: 250px;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .navbarfont2 {
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+  }
+
+  .navbarfont3 {
+    font-family: "Anton", sans-serif;
+    font-size: 10px;
+  }
+}
